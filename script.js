@@ -7,7 +7,7 @@ function insert_Row() {
 	td2.innerText="New Cell2"
     tr.append(td,td2);
 	grandParent.appendChild(tr)
-	let firstChild=document.querySlector("tr");
+	let firstChild=document.querySelector("tbody>tr");
 	grandParent.insertBefore(tr,firstChild);
   
   
